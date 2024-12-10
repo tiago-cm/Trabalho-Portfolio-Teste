@@ -1,0 +1,9 @@
+/*Estilização do Footer*/
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #23232e;
+  height: 8vh;
+  color: aliceblue;
+  }

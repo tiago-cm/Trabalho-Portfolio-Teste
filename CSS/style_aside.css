@@ -1,0 +1,24 @@
+/* Estilização do aside*/
+
+.asside{
+  /*Estilização para deixar o aside fixo no meio da página conforme pe rolado o scrol*/
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    }
+  
+    .asside--a{
+      /*Estilização do espaçamento dos links*/
+      margin-bottom: 10px;
+    }
+
+/*Quando a tela for menor que 999px não aparece o aside*/
+@media (max-width: 999px){
+    .asside {
+      display: none;
+    }
+
+  }

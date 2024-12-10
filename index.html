@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./CSS/style_header.css">
+    <link rel="stylesheet" href="./CSS/style_aside.css">
+    <link rel="stylesheet" href="./CSS/style_main.css">
+    <link rel="stylesheet" href="./CSS/style_footer.css">
+<!--    <link rel="stylesheet" href="CSS/style.css">-->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Tiago Moraes</title>
+</head>
+
+<body> 
+
+    <header>
+        <nav>
+            <a class="logo" href="/">TiagoMoraes</a>
+            
+<!--Div que agrupa o formato do hamburguer-->
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#sobre_mim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="asside">
+        <a class="asside--a" href="https://github.com/tiago-cm">
+            <img src="./Favcon/Github/icon-github-32.png" alt="">
+        </a>
+
+        <a class="asside--a" href="https://br.linkedin.com/in/tiago-costa-moraes">
+            <img src="./Favcon/Linkedin/icon-linkedin-32.png" alt="">
+        </a>
+
+        <a class="asside--a" href="">
+            <img src="./Favcon/Whatsapp/icon-whatsapp-32.png" alt="">
+        </a>
+    </aside>
+ 
+    <main>
+
+        <section class="banner">
+
+            <div class="banner--div">
+                <p class="banner__div--p">
+                    Oi, meu nome é <strong>Tiago Moraes </strong><br><em>Desenvolvo <br>ideias</em><br> e ajudo a criar um mundo melhor através do software. 
+                </p>
+               
+                <a class="banner__div--a" href="#sobre_mim">
+                    <button class="banner__div__a--botao">Leia sobre mim</button>
+                </a>
+            </div>
+
+            <div class="banner--div banner__div--2">
+                <img class="banner__div--img" src="./IMG/rb_8193.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="sobre_mim" id="sobre_mim">
+
+            <h2 class="sobre_mim--h2">
+                Um pouco sobre mim
+            </h2>
+
+            <p class="sobre_mim--p">
+                Eu sou um desenvolvedor, atualmente no meu primeiro ano de estudos no curso de Análise e Desenvolvimento de Sistemas, e com aproximadamente dois anos de experiência como desenvolvedor na linguagem de programação Cobol. Sou apaixonado por Linux e a cultura Open Source, e nas minhas horas vagas, busco aprender um pouco mais sobre esses e outros assuntos relacionados a tecnologia.
+            </p>
+
+        </section>
+
+        <section class="formacao" id="formacao">
+
+            <h2 class="formacao--h2">
+                Formação
+            </h2>
+
+            <p class="formacao--p">
+                Curso Análise e Desenvolvimento de Sistemas na Univeridade Uninter.
+            </p>
+
+        </section>
+
+        <section class="portfolio" id="portfolio">
+
+            <h2 class="portfolio--h2">
+                Meus Projetos
+            </h2>
+
+            <p class="portfolio--p">
+                Alguns dos meus projetos desenvolvidos.
+            </p>
+            
+            <div class="portfolio--div">
+
+                <article class="portfolio__div--article">
+                    <a class="portfolio__div__article--a" href="https://github.com/tiago-cm/estudo-python/tree/main">
+                        <h3 class="portfolio__div__article__a--h3">Jogo da Força</h3>
+                        <p  class="portfolio__div__article__a__p">Jogo da força desenvolvido na linguagem de programação Python</p>
+                    </a>
+                </article>
+
+                <article class="portfolio__div--article">
+                    <a class="portfolio__div__article--a" href="https://github.com/tiago-cm/estudo-python/tree/main">
+                        <h3 class="portfolio__div__article__a--h3">Infraestrutura como Código</h3>
+                        <p  class="portfolio__div__article__a__p">Montagem de ambiente utilizando Infraestrutura como Código</p>
+                    </a>
+                </article>
+
+                <article class="portfolio__div--article">
+                    <a class="portfolio__div__article--a"  href="https://github.com/tiago-cm/Trabalhos-uninter/blob/main/04-Cadastro_empresa.py">
+                        <h3 class="portfolio__div__article__a--h3" >Cadastro de Empresas</h3>
+                        <p  class="portfolio__div__article__a__p">Cadastro de Empresas desenvolvido na linguagem Python</p>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+
+            <h2 class="contato--h2">Contato</h2>
+
+            <p class="contato--p">
+                Se você está interessado no meu trabalho e gostaria que eu desse vida ao seu projeto, não hesite em me contatar!
+            </p>
+            
+            <form action="" class="contato--form">
+
+                <fieldset class="contato__form--fieldset">
+                    <legend>Formulário de Contato</legend>
+
+                    <div class="contato__form__fieldset--div">
+
+                        <div class="contato__form__fieldset__div--div">
+                            <label for="nome">Nome:</label>
+                            <br>
+                            <input class="contato__form__fieldset__div__div--input" type="text" placeholder="Digite o seu nome...">
+                        </div>
+
+                        <div class="contato__form__fieldset__div--div">
+                            <label for="email">E-mail:</label>
+                            <br>
+                            <input class="contato__form__fieldset__div__div--input" type="text" placeholder="Digite o seu e-mail...">
+                            
+                        </div>
+
+                    </div>
+
+                    <textarea class="contato__form__fieldset--textarea" name="mensagem" id="" rows="5" cols="20" placeholder="Digite aqui a sua mensagem...">
+                    </textarea>
+
+                    <br>
+                    <button class="contato__form__fieldset--button">Enviar</button>
+
+                </fieldset>
+                
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <p>&copy;Tiago Moraes</p>
+
+        <div>
+            <a href="https://github.com/tiago-cm">
+                <img src="./Favcon/Github/icon-github-32-branco.png" alt="">
+            </a>
+            <a href="https://br.linkedin.com/in/tiago-costa-moraes">
+                <img src="./Favcon/Linkedin/icon-linkedin-32-branco.png" alt="">
+            </a>
+            <a href="">
+                <img src="./Favcon/Whatsapp/icon-whatsapp-32-branco.png" alt="">
+            </a>
+        </div>
+
+    </footer>
+
+    <script src="/Js/script.js">
+    
+    </script>
+
+</body>
+</html>
